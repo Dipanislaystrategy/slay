@@ -2,6 +2,7 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "../components/navbar";
 import SimpleFAQ from "../components/simplefaq";
 import Footer from "../components/footer";
@@ -594,10 +595,13 @@ export default function ContactPage() {
 
                   <p className="text-[12px] sm:text-[13px] text-neutral-400 font-body text-center">
                     By submitting, you agree to our{" "}
-                    <span className="underline cursor-pointer">Terms</span> and{" "}
-                    <span className="underline cursor-pointer">
+                    <Link href="/TnC" className="underline hover:text-neutral-600 transition-colors">
+                      Terms
+                    </Link>{" "}
+                    and{" "}
+                    <Link href="/privacy-policy" className="underline hover:text-neutral-600 transition-colors">
                       Privacy Policy
-                    </span>
+                    </Link>
                     .
                   </p>
                 </div>

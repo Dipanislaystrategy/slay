@@ -19,6 +19,7 @@ export default function Footer({
     { name: "Services", href: "/Services" },
     { name: "Work", href: "/Work" },
     { name: "Terms & Conditions", href: "/TnC" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
   ],
   attributionText = "A agency created by",
   creatorName = "Designncode",

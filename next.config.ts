@@ -58,6 +58,14 @@ const nextConfig: NextConfig = {
         source: "/terms-and-conditions",
         destination: "/TnC",
       },
+      {
+        source: "/privacy",
+        destination: "/privacy-policy",
+      },
+      {
+        source: "/privacy-policy",
+        destination: "/privacy-policy",
+      },
     ];
   },
 };
